@@ -7,7 +7,7 @@ pipeline {
         DOCKER_IMAGE_CLIENT = 'shoambendavid/github-mastery-client'
         DOCKER_IMAGE_SERVER = 'shoambendavid/github-mastery-server'
         DOCKER_IMAGE_TAG = "${env.BUILD_NUMBER}"
-        // OPENAI_API_KEY should be set as a Jenkins credential or environment variable
+        OPENAI_API_KEY = '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'
         JWT_SECRET = '!tM@stery2025$SuperS3cr3tT0ken!'
         MONGODB_URI = 'mongodb://localhost:27017/test'
         SURVEY_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRTiWwPJIbC97FhdhTvfkJJw6PxqvxCkPziek-I9F8JoeRAZuuVc5VeoC2X8SKIqCh7ICIkgmsKz4wh/pub?output=xlsx'
