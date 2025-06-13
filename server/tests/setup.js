@@ -2,7 +2,8 @@
 process.env.NODE_ENV = 'test';
 process.env.JWT_SECRET = 'test-secret-key';
 process.env.DB_HOST = 'localhost';
-process.env.OPENAI_API_KEY = process.env.OPENAI_API_KEY || 'test-api-key';
+OPENAI_API_KEY = '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'
+
 
 
 // Set a global timeout for all tests
